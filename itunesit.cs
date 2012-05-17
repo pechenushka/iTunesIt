@@ -164,7 +164,24 @@ namespace iTunesIt
 
         private bool init_itunes_library_path()
         {
-            string home_path = Environment.GetEnvironmentVariable("HOME");
+            string[] variables = { "HOME", "USERPROFILE" };
+            string home_path = null;
+
+            foreach (string variable in variables)
+            {
+                home_path = Environment.GetEnvironmentVariable(variable);
+                if (home_path != null)
+                {
+                    break;
+                }
+            }
+
+            if (home_path == null)
+            {
+                this.errors = "Не могу найти путь к папке пользователя";
+                return false;
+            }
+
             char separator = Path.DirectorySeparatorChar;
 
             this.my_itunes_library_path = "my_library" + separator;
