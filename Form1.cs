@@ -50,7 +50,7 @@ namespace iTunesIt
 
         private void init_buttons()
         {
-            if (this.itunesit.get_local_itunes_library_path() == false)
+            if (this.itunesit.get_local_itunes_library_path() == false || this.itunesit.get_local_files_returned() == false)
             {
                 this.button1.Enabled = false;
             }
