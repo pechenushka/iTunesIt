@@ -190,7 +190,8 @@ namespace iTunesIt
              *  TODO: Выпилить это
              */
             string my_music_dir = "Music";
-            string itunes_library_path = home_path + separator + my_music_dir + separator + this.itunes_directory + separator;
+            //string itunes_library_path = home_path + separator + my_music_dir + separator + this.itunes_directory + separator;
+            string itunes_library_path = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic) + separator + this.itunes_directory + separator;
 
             foreach (string filename in this.itunes_library_files)
             {
