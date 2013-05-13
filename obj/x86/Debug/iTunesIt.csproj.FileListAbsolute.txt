@@ -1,0 +1,10 @@
+D:\Development\C#\iTunesIt\iTunesIt\bin\Debug\iTunesIt.exe
+D:\Development\C#\iTunesIt\iTunesIt\bin\Debug\iTunesIt.pdb
+D:\Development\C#\iTunesIt\iTunesIt\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Development\C#\iTunesIt\iTunesIt\obj\x86\Debug\iTunesIt.AboutBox1.resources
+D:\Development\C#\iTunesIt\iTunesIt\obj\x86\Debug\iTunesIt.MainForm.resources
+D:\Development\C#\iTunesIt\iTunesIt\obj\x86\Debug\iTunesIt.Properties.Resources.resources
+D:\Development\C#\iTunesIt\iTunesIt\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Development\C#\iTunesIt\iTunesIt\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Development\C#\iTunesIt\iTunesIt\obj\x86\Debug\iTunesIt.exe
+D:\Development\C#\iTunesIt\iTunesIt\obj\x86\Debug\iTunesIt.pdb
